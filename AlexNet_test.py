@@ -24,7 +24,7 @@ def bias_variable(shape):
 
 
 images_input = tf.placeholder("float",[None,224,224,3])
-labels_input = tf.placeholder("float",[None,1000])  #43种标签
+labels_input = tf.placeholder("float",[None,1000])  #1000种标签
 learn_rate = tf.placeholder("float") 
 keep_prob_1 = tf.placeholder("float")
 keep_prob_2 = tf.placeholder("float")
